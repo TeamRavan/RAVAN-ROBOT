@@ -1,15 +1,15 @@
 # Config files, logs and stuff
-Tianabot/modules/helper_funcs/temp.txt
-Tianabot/elevated_users.json
-Tianabot/config.py
-Tianabot/config.ini
+Ravanbot/modules/helper_funcs/temp.txt
+Ravanbot/elevated_users.json
+Ravanbot/config.py
+Ravanbot/config.ini
 log.txt
 kangsticker.png
 updates.txt
 
 # Session files
-Tianabot/*.session
-Tianabot/*.session-journal
+Ravanbot/*.session
+Ravanbot/*.session-journal
 Masha.session-journal
 *.session
 
