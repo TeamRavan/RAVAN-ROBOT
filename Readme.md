@@ -1,7 +1,7 @@
 <h1 align="centre"> 𝐑𝐀𝐕𝐀𝐍  </h1>
 
 
-<p align="center"><a href="https://t.me/patricia_support"><img src="https://telegra.ph/file/d7959545e404d6ba54837.jpg" width="10000"></a></p> 
+<p align="center"><a href="https://t.me/patricia_support"><img src="https://telegra.ph/file/50a3c04b5263929313649.jpg" width="10000"></a></p> 
 <h4 align="center">A Powerful, Smart And Simple Management Bot to safeguard your group from spammers.</h4>
 
 ## OFFICIAL BOT
