@@ -1,6 +1,6 @@
-import Tianabot.modules.sql.blacklistusers_sql as sql
-from Tianabot import ALLOW_EXCL
-from Tianabot import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
+import Ravanbot.modules.sql.blacklistusers_sql as sql
+from Ravanbot import ALLOW_EXCL
+from Ravanbot import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
 
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, RegexHandler, Filters
