@@ -3,7 +3,7 @@ from Ravanbot import telethn as tbot
 from Ravanbot.events import register
 from telethon import *
 from telethon import Button, custom, events, functions
-from Tianabot.helper_extra.badmedia import is_nsfw
+from Ravanbot.helper_extra.badmedia import is_nsfw
 import requests
 import string 
 import random 
