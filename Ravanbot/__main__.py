@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = """Hello, My name is ✪𝐑𝐀𝐕𝐀𝐍✪
+PM_START_TEXT = """Hello, My name is [✪𝐑𝐀𝐕𝐀𝐍✪](https://telegra.ph/file/3f3e6a5ed0a70b8f8b144.jpg)
 Hey , I am a Group Manager,
 Made specially for Managing Groups.
 Click /help or use button below to find out more about how to use me to my full potential."""
