@@ -100,7 +100,7 @@ RAVAN_IMG = "https://telegra.ph/file/b672c6aca34b320dd41c3.jpg"
 
 HELP_STRINGS = """
 Hey There! My Name is 𝐑𝐀𝐕𝐀𝐍.
-I'm a Heroine For Fun and help admins to manage their groups! Have a look at the following for an idea of some of the things I can help you with.
+I'm here For Fun and help admins to manage their groups! Have a look at the following for an idea of some of the things I can help you with.
 • Main commands available:
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
@@ -358,15 +358,15 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *RAVAN*, a powerful group management bot built to help you manage your group easily.
+            text="""ℹ️ I'm *RAVAN*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Masha's licensed under the GNU General Public License v3.0_
-                 If you have any question about masha, let us know at @TeamRavanSupport.""",
+                 \n_RaVaN's licensed under the GNU General Public License v3.0
+                 If you have any question about RaVaN, let us know at @TeamRavanSupport.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
