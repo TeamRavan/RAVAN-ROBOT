@@ -1,6 +1,6 @@
-from ShasaBot.events import register
-from ShasaBot import OWNER_ID
-from ShasaBot import telethn as tbot
+from RavanBot.events import register
+from RavanBot import OWNER_ID
+from RavanBot import telethn as tbot
 import os 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -36,7 +36,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "LogoByShasa.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By EvilBot")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By RavanBot")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
@@ -76,7 +76,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="white")
     fname2 = "LogoByShasa.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By EvilBot")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By RavanBot")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
