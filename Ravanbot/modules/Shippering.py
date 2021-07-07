@@ -1,5 +1,5 @@
 from Ravanbot import pbot as app
-from Ravanbot.utils.dbfunc import get_couple, save_couple
+from Ravanbot.utils.dbfunction import get_couple, save_couple
 from pyrogram import filters
 import random
 from datetime import datetime
