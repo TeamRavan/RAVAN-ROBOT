@@ -365,7 +365,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_RaVaN's licensed under the GNU General Public License v3.0
+                 \n_Masha's licensed under the GNU General Public License v3.0
                  If you have any question about RaVaN, let us know at @TeamRavanSupport.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
